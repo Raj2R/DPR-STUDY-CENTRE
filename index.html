@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="monetag" content="efb5229d74400b4072e2f3b76b3d836a">
+    <title>DPR Study Centre - Success Begins Here</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#6366f1', // Indigo (Purple-Blue mix)
+              primaryDark: '#4f46e5',
+              secondary: '#e11d48', // Rose Red
+              secondaryLight: '#fda4af',
+              surface: '#f5f3ff', // Very light purple background
+              surfaceDark: '#ede9fe',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Merriweather', 'serif'],
+            },
+            animation: {
+              'blob': 'blob 7s infinite',
+              'progress': 'progress 2s ease-in-out infinite',
+            },
+            keyframes: {
+              blob: {
+                '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                '100%': { transform: 'translate(0px, 0px) scale(1)' },
+              },
+              progress: {
+                '0%': { transform: 'scaleX(0)' },
+                '50%': { transform: 'scaleX(0.5)' },
+                '100%': { transform: 'scaleX(1)' },
+              }
+            }
+          },
+        },
+      };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <style>
+      body { 
+        font-family: 'Inter', sans-serif; 
+        /* Security: Disable Text Selection Globally */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+        /* Disable Dragging */
+        -webkit-user-drag: none;
+      }
+
+      /* Security: Disable Printing */
+      @media print {
+        html, body {
+          display: none !important;
+          height: 0;
+          overflow: hidden;
+          background: #000;
+        }
+        * {
+          display: none !important;
+        }
+        body::after {
+          content: "Printing is disabled for security reasons.";
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          font-size: 24px;
+          color: #fff;
+          background: #000;
+        }
+      }
+
+      /* Custom scrollbar for cleaner UI */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f5f3ff; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #a5b4fc; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6366f1; 
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.45.4"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-Ben67Ub1.js"></script>
+</head>
+  <body class="bg-surface text-slate-900 selection:bg-rose-200 selection:text-rose-900" oncontextmenu="return false;">
+    <div id="root"></div>
+</body>
+</html>
